@@ -18,8 +18,9 @@ game.json </pre>
 <pre>python main.py -i input.conf -o output.json</pre>
 
 ### 3. Тестирование
-Запуск тестов с помощью testpy(файл test_basic.py):
-<pre>python -m pytest -q</pre>
+Запуск тестов с помощью pytest(файл test_basic.py):
+```python -m pytest -q```
+
 ![результат тестирования](image.png)
 
 ### 4. Примеры работы программы
